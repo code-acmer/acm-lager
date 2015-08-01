@@ -1,0 +1,35 @@
+--- Test run on 2015/06/25 18:03:54 ---
+Converting "/home/li/server_p02/." to "/home/li/server_p02" and re-inserting with add_patha/1
+
+
+Common Test v1.8.1 starting (cwd is /home/li/server_p02/deps/lager)
+
+
+Common Test: Running make in test directories...
+Including the following directories:
+"/home/li/server_p02/deps/lager/include"
+Recompile: trunc_io_eqc
+Recompile: sync_error_logger
+Recompile: special_process
+Recompile: pr_nested_record_test
+pr_nested_record_test.erl:17: undefined macro 'assertEqual/2'
+pr_nested_record_test.erl:5: Warning: record a is unused
+pr_nested_record_test.erl:6: Warning: record b is unused
+Recompile: lager_test_backend
+lager_test_backend.erl:27: Warning: record test is unused
+Recompile: lager_crash_backend
+Recompile: crash
+crash.erl:66: Warning: this expression will fail with a 'badarg' exception
+{error,make_failed}
+
+
+CWD set to: "/home/li/server_p02/deps/lager/logs/ct_run.test@moyou.2015-06-25_18.03.55"
+
+TEST INFO: 1 test(s), 0 case(s) in 0 suite(s)
+
+Testing deps.lager: Starting test, 0 test cases
+Testing deps.lager: TEST COMPLETE, 0 ok, 0 failed of 0 test cases
+
+Updating /home/li/server_p02/deps/lager/logs/index.html... done
+Updating /home/li/server_p02/deps/lager/logs/all_runs.html... done
+
